@@ -16,7 +16,7 @@ Robot Scaling Literature Review Dataset Data and figures accompanying the paper:
 ---
 
 ## Dataset (`robot_litrev.csv`)
-<!--
+
 ### Columns
 
 | Column | Units | Description |
@@ -52,8 +52,6 @@ Robot Scaling Literature Review Dataset Data and figures accompanying the paper:
 - **Quadruped**: four-legged robots (n = 14)
 - **Hexapod**: six-legged and insect-scale robots (n = 6)
 
-
-
 ---
 
 ## Scaling Laws (`fit_summary_powerlaw.txt`)
@@ -73,6 +71,5 @@ Per-type fits are also provided for Full Biped, Lower Biped, Hexapod, and Quadru
 ---
 
 ## Notes
-
 - Data were collected and verified from manufacturer specifications, datasheets, and peer-reviewed publications.
 - Some robots were included in the CSV file, but excluded from powerfitting due to missing data
