@@ -7,7 +7,7 @@ Robot Scaling Literature Review Dataset Data and figures accompanying the paper:
 
 | File | Description |
 |------|-------------|
-| `robot_litrev.csv` | Robot dataset with morphological measurements and reference URLs |
+| `robot_scaling_dataset.csv` | Robot dataset with morphological measurements and reference URLs |
 | `fit_summary_powerlaw.txt` | Power-law fit results (coefficient A, exponent b, R², n) for all relationships |
 | `litrev_mass_length.png` | Figure: Mass and leg scaling plots (static image) |
 | `litrev_mass_length.svg` | Figure: Mass and leg scaling plots (vector, editable) |
