@@ -1,0 +1,17 @@
+Plot                                 Robot                    DS                 A          b       R2     n   Equation
+========================================================================================================================
+Leg vs Body Length                   ALL (global)             global        1.48489   0.858397   0.8651    47   y = 1.48489 * L^0.858397
+Leg vs Body Length                   Full Biped               per_type        1.82485   0.869681   0.7275    17   y = 1.82485 * L^0.869681
+Leg vs Body Length                   Hexapod                  per_type        1.92011   0.794234   0.9795     6   y = 1.92011 * L^0.794234
+Leg vs Body Length                   Lower Biped              per_type        1.16983   0.999998   0.9854    10   y = 1.16983 * L^0.999998
+Leg vs Body Length                   Quadruped                per_type          1.242   0.814595   0.8721    14   y = 1.242 * L^0.814595
+Mass vs Body Length                  ALL (global)             global        23.7564    2.33911   0.9020    47   y = 23.7564 * L^2.33911
+Mass vs Body Length                  Full Biped               per_type        17.1513     2.2653   0.8193    17   y = 17.1513 * L^2.2653
+Mass vs Body Length                  Hexapod                  per_type        33.7821     2.8875   0.9505     6   y = 33.7821 * L^2.8875
+Mass vs Body Length                  Lower Biped              per_type        18.0145    1.95746   0.9840    10   y = 18.0145 * L^1.95746
+Mass vs Body Length                  Quadruped                per_type        71.1087    3.13592   0.9419    14   y = 71.1087 * L^3.13592
+Mass vs Leg Length                   ALL (global)             global        68.2039    2.11661   0.8671    47   y = 68.2039 * L^2.11661
+Mass vs Leg Length                   Full Biped               per_type        64.4848    1.90914   0.5597    17   y = 64.4848 * L^1.90914
+Mass vs Leg Length                   Hexapod                  per_type        188.437    2.23082   0.8809     6   y = 188.437 * L^2.23082
+Mass vs Leg Length                   Lower Biped              per_type        24.2536    1.94986   0.9621    10   y = 24.2536 * L^1.94986
+Mass vs Leg Length                   Quadruped                per_type        170.576    2.71573   0.9284    14   y = 170.576 * L^2.71573
