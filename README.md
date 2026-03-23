@@ -80,7 +80,7 @@ Per-type fits are also provided for Full Biped, Lower Biped, Hexapod, and Quadru
 If you use this dataset, please cite:
 
 ```
-[final citation here]
+[final citation here - after IROS acceptance]
 ```
 
 ---
