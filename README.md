@@ -21,15 +21,15 @@ Robot Scaling Literature Review Dataset Data and figures accompanying the paper:
 
 | Column | Units | Description |
 |--------|-------|-------------|
-| `Robot Name` | — | Robot name |
-| `reference_url` | — | Primary reference/source URL |
-| `Type` | — | Locomotion type: `biped`, `quadruped`, `hexapod` |
-| `Year` | year | Year of publication or commercial release |
+| `robot_name` | — | Robot name |
+| `reference` | — | Primary reference/source URL |
+| `type` | — | Locomotion type: `biped`, `quadruped`, `hexapod` |
+| `year` | year | Year of publication or commercial release |
 | `cost_dollars` | USD | Approximate retail/reported cost |
 | `total_length_inm` | m | Total body length |
 | `leg_length_inm` | m | Leg length |
-| `Min Mass (kg)` | kg | Minimum reported mass |
-| `Max Mass (kg)` | kg | Maximum reported mass |
+| `min_mass_inkg` | kg | Minimum reported mass |
+| `max_mass_inkg` | kg | Maximum reported mass |
 | `average_mass_inkg` | kg | Average or reported mass used in analysis |
 | `normal_speed_inmps` | m/s | Normal operational speed |
 | `walking_speed_inmps` | m/s | Walking speed |
@@ -38,15 +38,12 @@ Robot Scaling Literature Review Dataset Data and figures accompanying the paper:
 | `payload_inkg` | kg | Rated payload capacity |
 | `actuator_mass_inkg` | kg | Total actuator mass |
 | `accuator_count` | — | Number of actuators |
-| `Highest Stall Torque (or Force) on actuators (Nm)` | Nm | Maximum stall torque of primary actuator |
-| `Actuator Name` | — | Actuator model/name |
-| `Acutation type` | — | Actuation technology (e.g., motors, hydraulics) |
-| `COT` | — | Cost of Transport |
-| `Electronics Wt. (kg)` | kg | Electronics mass |
-| `Battery life (hours)` | hours | Rated battery life |
-| `Battery Wt. (kg)` | kg | Battery mass |
-| `Comment` | — | Notes or data quality flags |
-| `Fitness = COT/Total cost of robot` | — | Locomotion efficiency metric |
+| `highest_stall_torqueorforce_on_actuators_inNm` | Nm | Maximum stall torque of primary actuator |
+| `actuator_name` | — | Actuator model/name |
+| `acutation_type` | — | Actuation technology (e.g., motors, hydraulics) |
+| `reported_COT` | — | Cost of Transport |
+| `battery_life_hours` | hours | Rated battery life |
+| `battery_wt_inkg` | kg | Battery mass |
 
 ### Robot Types
 
@@ -88,3 +85,4 @@ If you use this dataset, please cite:
 ## Notes
 
 - Data were collected and verified from manufacturer specifications, datasheets, and peer-reviewed publications.
+- Robot Leonardo is included, but excluded from powerfitting 
