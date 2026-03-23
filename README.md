@@ -16,7 +16,7 @@ Robot Scaling Literature Review Dataset Data and figures accompanying the paper:
 ---
 
 ## Dataset (`robot_litrev.csv`)
-
+<!--
 ### Columns
 
 | Column | Units | Description |
@@ -71,7 +71,7 @@ Key results (global fits across all 47 legged robots):
 Per-type fits are also provided for Full Biped, Lower Biped, Hexapod, and Quadruped categories.
 
 ---
-
+<!--
 ## Citation
 
 If you use this dataset, please cite:
@@ -81,6 +81,7 @@ If you use this dataset, please cite:
 ```
 
 ---
+-->
 
 ## Notes
 
